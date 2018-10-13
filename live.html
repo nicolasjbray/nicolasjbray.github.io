@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta content="Nicolas Bray" name="author"> 
+
+<head>
+  <meta charset="UTF-8">
+  <title>The Soft Parade</title>
+  
+  
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:300,400,600'>
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body class="home2">
+
+<!------------------------------------------------ SCRIPT FOR SCROLL BUTTON ---------------------------------------------------->
+
+
+<script>
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+<!-----------------------------------------------NAVIGATION BAR-------------------------------------------------------------->
+
+<br>
+<br>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="shifts.html">Shifts</a></li>
+  <li><a href="five.html">Part Five</a></li>
+  <li><a href="background.html">Background</a></li>
+  <li><a class="active" href="live.html">Live</a></li>
+</ul>
+
+</br>
+</br>
+</br>
+</br>
+
+<!-------------------------------------------- TOP BUTTON ------------------------------------------------------------------------->
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+<!----------------------------------------------------- VIDEO --------------------------------------------------------------------->
+
+
+<center><iframe width="800" height="800"
+src="https://www.youtube.com/embed/O0IZtB98ykc?autoplay=1">
+</iframe></center>
+
+
+
+
+
+
+</body>
+
+</html>
