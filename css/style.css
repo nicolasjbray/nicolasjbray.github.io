@@ -1534,6 +1534,12 @@ html {
   background-attachment: fixed;
   height: 90vh;
 }
+.parallaxSix {
+  background: url('../partFive.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+}
 
 
 
